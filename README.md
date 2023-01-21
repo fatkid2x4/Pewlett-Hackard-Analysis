@@ -8,8 +8,8 @@ My co-worker and I have been challenged to use SQL Through PageAdmin4 to give hi
 * First I created the retirement titles query.
 ![retirement_titles.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/Retirement%20Titles.png)
 *
-![retirement_titles.png]
+![unique_titles.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/unique_titles.csv)
 *
-![retirement_titles.png]
+![retiring_titles.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/Retiring%20Titles.png)
 *
-![retirement_titles.png]
+![mentorship_eligibility.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/Mentorship%20Eligibility.png)
