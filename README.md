@@ -7,8 +7,8 @@ My co-worker and I have been challenged to use SQL Through PageAdmin4 to give hi
 ## Results
 
 * First I created the retirement titles query. The purpose of this was to show the number of retiring eligible employees and what titles they held.  This simply helps us down the path of creating more queries to further identify areas of concerns and prioritization of needs new employees and what type. I have attached a .png file to show you a snippit of the query.
-![retirement_titles.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/Retirement%20Titles.png) <img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
-
+![retirement_titles.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/Retirement%20Titles.png <img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+) 
 * In the second query we were able to fine tune the potential retirees using a function new to me, called "Distinct on".  It allowed us to fine tune the previous query to make sure we have the names of potential retiring employees and what position they will be retiring into.  If we don't do this, then you could potentially overcount retiring employees and it would skew the number or types of positions that might retire.  See attached snippit of retirement titles .csv.
 
 ![unique_titles.png](https://github.com/fatkid2x4/Pewlett-Hackard-Analysis/blob/main/Unique%20Titles.png) <img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
