@@ -121,3 +121,22 @@ ON (employees.emp_no = titles.emp_no)
 WHERE (dept_emp.to_date = '9999-01-01')
 AND (employees.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no
+
+
+-- for summary of report. looked at total employees by position so that we know what departments or in greater need
+Select Count (titles), titles.title
+INTO all_titles
+FROM titles
+GROUP BY titles.title
+ORDER BY count Desc;
+
+
+
+--also for summary, this lets us look at the next 3 years of potential retireees
+SELECT emp_no, first_name, last_name
+--INTO retirement_info
+FROM employees
+WHERE (birth_date BETWEEN '1956-01-01' AND '1959-12-31')
+AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+-- Check the table
+SELECT * FROM retirement_info;
